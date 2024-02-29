@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="814dp"
+        android:layout_height="934dp"
+        android:layout_gravity="center"
+        android:src="@drawable/befdac93_ad68_4a66_8559_04c5a80d02ab" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:gravity="bottom|fill"
+        android:includeFontPadding="false"
+        android:text="SELAMAT DATANG"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="282dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center|top"
+        android:src="@drawable/unnamed_removebg_preview" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#F3EDED"
+        android:text="Masuk"
+        android:textColor="#030403"
+        android:textColorHighlight="#84FFFF"
+        android:textColorLink="#CAB2B2"
+        app:rippleColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="@string/copyright"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+</FrameLayout>

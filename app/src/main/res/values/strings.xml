@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="copyright"> Develope by Farid</string>
+</resources>
